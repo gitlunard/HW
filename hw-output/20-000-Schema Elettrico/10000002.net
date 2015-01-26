@@ -1,0 +1,356 @@
+# EESchema Netlist Version 1.1 created  19/01/2015 22:14:48
+(
+ ( /54ADB060 MODULE  U3 AQZ204 {Lib=AQZ204}
+  (    1 /IO_0_CMD )
+  (    2 GND )
+  (    3 /IO_0_N )
+  (    4 /IO_0_P )
+ )
+ ( /54ADB03D MODULE  U2 AQZ204 {Lib=AQZ204}
+  (    1 /IO_1_CMD )
+  (    2 GND )
+  (    3 /IO_1_N )
+  (    4 /IO_1_P )
+ )
+ ( /547BA3D0 $noname  D2 ZENERSMALL {Lib=ZENERSMALL}
+  (    1 /IO_1_N )
+  (    2 /IO_1_P )
+ )
+ ( /547BA3A6 $noname  D1 ZENERSMALL {Lib=ZENERSMALL}
+  (    1 /IO_0_N )
+  (    2 /IO_0_P )
+ )
+ ( /547BA201 $noname  R7 10000 {Lib=R}
+  (    1 VDD )
+  (    2 N-000013 )
+ )
+ ( /547BA1FE $noname  R8 10000 {Lib=R}
+  (    1 VDD )
+  (    2 N-000011 )
+ )
+ ( /547BA1E9 $noname  R9 10000 {Lib=R}
+  (    1 VDD )
+  (    2 N-000012 )
+ )
+ ( /547BA1C7 $noname  U1 PCF8574 {Lib=PCF8574}
+  (    1 N-000012 )
+  (    2 N-000011 )
+  (    3 N-000013 )
+  (    4 /IO_0_CMD )
+  (    5 /IO_1_CMD )
+  (    6 /IO_2_CMD )
+  (    7 /IO_3_CMD )
+  (    8 GND )
+  (    9 /IO_4_CMD )
+  (   10 /IO_5_CMD )
+  (   11 /IO_6_CMD )
+  (   12 /IO_7_CMD )
+  (   13 /I2C_INT )
+  (   14 /I2C_SCL )
+  (   15 /I2C_SDA )
+  (   16 VDD )
+ )
+ ( /547BA0D6 $noname  P6 CONN_4 {Lib=CONN_4}
+  (    1 /IO_2_CMD )
+  (    2 /IO_3_CMD )
+  (    3 /IO_4_CMD )
+  (    4 /IO_5_CMD )
+ )
+ ( /547BA0D5 $noname  P7 CONN_4 {Lib=CONN_4}
+  (    1 /IO_6_CMD )
+  (    2 /IO_7_CMD )
+  (    3 /NC1 )
+  (    4 /I2C_INT )
+ )
+ ( /547BA0D4 $noname  P5 CONN_4 {Lib=CONN_4}
+  (    1 VDD )
+  (    2 /I2C_SCL )
+  (    3 /I2C_SDA )
+  (    4 GND )
+ )
+ ( /547BA02B $noname  R6 0 {Lib=R}
+  (    1 /IO_7_CMD )
+  (    2 /IO_1_CMD )
+ )
+ ( /547BA026 $noname  R5 0 {Lib=R}
+  (    1 /IO_6_CMD )
+  (    2 /IO_0_CMD )
+ )
+ ( /547BA01C $noname  R4 0 {Lib=R}
+  (    1 /IO_5_CMD )
+  (    2 /IO_1_CMD )
+ )
+ ( /547BA018 $noname  R3 0 {Lib=R}
+  (    1 /IO_4_CMD )
+  (    2 /IO_0_CMD )
+ )
+ ( /547B9FFD $noname  R2 0 {Lib=R}
+  (    1 /IO_3_CMD )
+  (    2 /IO_1_CMD )
+ )
+ ( /547B9FF3 $noname  R1 0 {Lib=R}
+  (    1 /IO_2_CMD )
+  (    2 /IO_0_CMD )
+ )
+ ( /547B9BC6 $noname  R12 1000 {Lib=R}
+  (    1 VDD )
+  (    2 /IO_1_CMD )
+ )
+ ( /547B9BC3 $noname  R13 10000 {Lib=R}
+  (    1 /IO_1_CMD )
+  (    2 GND )
+ )
+ ( /547B9AAC $noname  R11 10000 {Lib=R}
+  (    1 /IO_0_CMD )
+  (    2 GND )
+ )
+ ( /547B99B2 $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 VDD )
+  (    2 /I2C_SCL )
+  (    3 /I2C_SDA )
+  (    4 GND )
+ )
+ ( /547B991B $noname  P4 CONN_4 {Lib=CONN_4}
+  (    1 /IO_6_CMD )
+  (    2 /IO_7_CMD )
+  (    3 /NC1 )
+  (    4 /I2C_INT )
+ )
+ ( /547B98F2 $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 /IO_2_CMD )
+  (    2 /IO_3_CMD )
+  (    3 /IO_4_CMD )
+  (    4 /IO_5_CMD )
+ )
+ ( /54560055 $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 VDD )
+  (    2 /I2C_SCL )
+  (    3 /I2C_SDA )
+  (    4 GND )
+ )
+ ( /545600A7 $noname  P8 CONN_4 {Lib=CONN_4}
+  (    1 /IO_0_P )
+  (    2 /IO_0_N )
+  (    3 /IO_1_P )
+  (    4 /IO_1_N )
+ )
+ ( /5456065C $noname  R10 1000 {Lib=R}
+  (    1 VDD )
+  (    2 /IO_0_CMD )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U3 2
+ U2 2
+ P2 4
+ P1 4
+ R13 2
+ U1 8
+ P5 4
+ R11 2
+Net 2 "/I2C_SDA" "I2C_SDA"
+ U1 15
+ P1 3
+ P2 3
+ P5 3
+Net 3 "/I2C_SCL" "I2C_SCL"
+ P5 2
+ P2 2
+ P1 2
+ U1 14
+Net 4 "VDD" "VDD"
+ R12 1
+ P2 1
+ R7 1
+ U1 16
+ R10 1
+ P1 1
+ R9 1
+ R8 1
+ P5 1
+Net 5 "/IO_3_CMD" "IO_3_CMD"
+ P3 2
+ R2 1
+ P6 2
+ U1 7
+Net 6 "/IO_4_CMD" "IO_4_CMD"
+ U1 9
+ P6 3
+ R3 1
+ P3 3
+Net 7 "/IO_5_CMD" "IO_5_CMD"
+ R4 1
+ P6 4
+ U1 10
+ P3 4
+Net 8 "/IO_6_CMD" "IO_6_CMD"
+ R5 1
+ P4 1
+ P7 1
+ U1 11
+Net 9 "/IO_7_CMD" "IO_7_CMD"
+ R6 1
+ U1 12
+ P4 2
+ P7 2
+Net 10 "/IO_1_CMD" "IO_1_CMD"
+ U1 5
+ R4 2
+ U2 1
+ R2 2
+ R6 2
+ R12 2
+ R13 1
+Net 11 "" ""
+ R8 2
+ U1 2
+Net 12 "" ""
+ U1 1
+ R9 2
+Net 13 "" ""
+ U1 3
+ R7 2
+Net 14 "/IO_2_CMD" "IO_2_CMD"
+ U1 6
+ R1 1
+ P3 1
+ P6 1
+Net 15 "/IO_1_P" "IO_1_P"
+ U2 4
+ D2 2
+ P8 3
+Net 16 "/IO_0_N" "IO_0_N"
+ P8 2
+ D1 1
+ U3 3
+Net 17 "/IO_0_P" "IO_0_P"
+ P8 1
+ D1 2
+ U3 4
+Net 18 "/IO_1_N" "IO_1_N"
+ P8 4
+ D2 1
+ U2 3
+Net 19 "/IO_0_CMD" "IO_0_CMD"
+ R1 2
+ R11 1
+ R10 2
+ U3 1
+ R5 2
+ U1 4
+ R3 2
+Net 20 "/NC1" "NC1"
+ P4 3
+ P7 3
+Net 21 "/I2C_INT" "I2C_INT"
+ P4 4
+ P7 4
+ U1 13
+}
+#End
