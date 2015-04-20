@@ -1,435 +1,373 @@
-# EESchema Netlist Version 1.1 created  22/02/2015 11:41:17
-(
- ( /547BA3D0 $noname  D2 ZENERSMALL {Lib=ZENERSMALL}
-  (    1 /IO_1_N )
-  (    2 /IO_1_P )
- )
- ( /547BA3A6 $noname  D1 ZENERSMALL {Lib=ZENERSMALL}
-  (    1 /IO_0_N )
-  (    2 /IO_0_P )
- )
- ( /547BA201 $noname  R7 10000 {Lib=R}
-  (    1 VDD )
-  (    2 N-000013 )
- )
- ( /547BA1FE $noname  R8 10000 {Lib=R}
-  (    1 VDD )
-  (    2 N-000024 )
- )
- ( /547BA1E9 $noname  R9 10000 {Lib=R}
-  (    1 VDD )
-  (    2 N-000014 )
- )
- ( /547BA1C7 $noname  U1 PCF8574 {Lib=PCF8574}
-  (    1 N-000014 )
-  (    2 N-000024 )
-  (    3 N-000013 )
-  (    4 /IO_0_CMD )
-  (    5 /IO_1_CMD )
-  (    6 /IO_2_CMD )
-  (    7 /IO_3_CMD )
-  (    8 GND )
-  (    9 /IO_4_CMD )
-  (   10 /IO_5_CMD )
-  (   11 /IO_6_CMD )
-  (   12 /IO_7_CMD )
-  (   13 /I2C_INT )
-  (   14 /I2C_SCL )
-  (   15 /I2C_SDA )
-  (   16 VDD )
- )
- ( /547BA0D6 $noname  P6 CONN_4 {Lib=CONN_4}
-  (    1 /IO_2_CMD )
-  (    2 /IO_3_CMD )
-  (    3 /IO_4_CMD )
-  (    4 /IO_5_CMD )
- )
- ( /547BA0D5 $noname  P7 CONN_4 {Lib=CONN_4}
-  (    1 /IO_6_CMD )
-  (    2 /IO_7_CMD )
-  (    3 ? )
-  (    4 /I2C_INT )
- )
- ( /547BA0D4 $noname  P5 CONN_4 {Lib=CONN_4}
-  (    1 VDD )
-  (    2 /I2C_SCL )
-  (    3 /I2C_SDA )
-  (    4 GND )
- )
- ( /547BA02B $noname  R6 0 {Lib=R}
-  (    1 /IO_7_CMD )
-  (    2 /IO_1_CMD )
- )
- ( /547BA026 $noname  R5 0 {Lib=R}
-  (    1 /IO_6_CMD )
-  (    2 /IO_0_CMD )
- )
- ( /547BA01C $noname  R4 0 {Lib=R}
-  (    1 /IO_5_CMD )
-  (    2 /IO_1_CMD )
- )
- ( /547BA018 $noname  R3 0 {Lib=R}
-  (    1 /IO_4_CMD )
-  (    2 /IO_0_CMD )
- )
- ( /547B9FFD $noname  R2 0 {Lib=R}
-  (    1 /IO_3_CMD )
-  (    2 /IO_1_CMD )
- )
- ( /547B9FF3 $noname  R1 0 {Lib=R}
-  (    1 /IO_2_CMD )
-  (    2 /IO_0_CMD )
- )
- ( /547B9E50 $noname  R17 2400 {Lib=R}
-  (    1 N-000026 )
-  (    2 N-000005 )
- )
- ( /547B9E4F $noname  R19 2400 {Lib=R}
-  (    1 N-000005 )
-  (    2 /IO_1_P )
- )
- ( /547B9E4E $noname  R15 100 {Lib=R}
-  (    1 /IO_1_N )
-  (    2 N-000026 )
- )
- ( /547B9DEF $noname  R14 100 {Lib=R}
-  (    1 /IO_0_N )
-  (    2 N-000004 )
- )
- ( /547B9DDC $noname  R18 2400 {Lib=R}
-  (    1 N-000022 )
-  (    2 /IO_0_P )
- )
- ( /547B9DBB $noname  R16 2400 {Lib=R}
-  (    1 N-000004 )
-  (    2 N-000022 )
- )
- ( /547B9BC6 $noname  R12 1000 {Lib=R}
-  (    1 VDD )
-  (    2 /IO_1_CMD )
- )
- ( /547B9BC3 $noname  R13 10000 {Lib=R}
-  (    1 /IO_1_CMD )
-  (    2 GND )
- )
- ( /547B9AAC $noname  R11 10000 {Lib=R}
-  (    1 /IO_0_CMD )
-  (    2 GND )
- )
- ( /547B99B2 $noname  P2 CONN_4 {Lib=CONN_4}
-  (    1 VDD )
-  (    2 /I2C_SCL )
-  (    3 /I2C_SDA )
-  (    4 GND )
- )
- ( /547B991B $noname  P4 CONN_4 {Lib=CONN_4}
-  (    1 /IO_6_CMD )
-  (    2 /IO_7_CMD )
-  (    3 ? )
-  (    4 /I2C_INT )
- )
- ( /547B98F2 $noname  P3 CONN_4 {Lib=CONN_4}
-  (    1 /IO_2_CMD )
-  (    2 /IO_3_CMD )
-  (    3 /IO_4_CMD )
-  (    4 /IO_5_CMD )
- )
- ( /54560055 $noname  P1 CONN_4 {Lib=CONN_4}
-  (    1 VDD )
-  (    2 /I2C_SCL )
-  (    3 /I2C_SDA )
-  (    4 GND )
- )
- ( /545600A7 $noname  P8 CONN_4 {Lib=CONN_4}
-  (    1 /IO_0_P )
-  (    2 /IO_0_N )
-  (    3 /IO_1_P )
-  (    4 /IO_1_N )
- )
- ( /5456065C $noname  R10 1000 {Lib=R}
-  (    1 VDD )
-  (    2 /IO_0_CMD )
- )
- ( /54E9B476 SOP4  IC1 TLP291 {Lib=TLP291}
-  (    1 N-000004 )
-  (    2 /IO_0_N )
-  (    3 GND )
-  (    4 /IO_0_CMD )
- )
- ( /54E9B4A1 SOP4  IC2 TLP291 {Lib=TLP291}
-  (    1 N-000026 )
-  (    2 /IO_1_N )
-  (    3 GND )
-  (    4 /IO_1_CMD )
- )
-)
-*
-{ Allowed footprints by component:
-$component D2
- D?
- SO*
- SM*
-$endlist
-$component D1
- D?
- SO*
- SM*
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R17
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R19
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R15
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R14
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R18
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R16
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R12
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R13
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R11
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "/IO_5_CMD" "IO_5_CMD"
- R4 1
- P3 4
- P6 4
- U1 10
-Net 2 "/IO_6_CMD" "IO_6_CMD"
- U1 11
- P7 1
- P4 1
- R5 1
-Net 3 "/IO_7_CMD" "IO_7_CMD"
- U1 12
- P7 2
- R6 1
- P4 2
-Net 4 "" ""
- R16 1
- IC1 1
- R14 2
-Net 5 "" ""
- R19 1
- R17 2
-Net 6 "/IO_1_P" "IO_1_P"
- D2 2
- R19 2
- P8 3
-Net 7 "/IO_2_CMD" "IO_2_CMD"
- R1 1
- U1 6
- P6 1
- P3 1
-Net 8 "/IO_1_CMD" "IO_1_CMD"
- IC2 4
- R12 2
- R13 1
- R6 2
- R4 2
- U1 5
- R2 2
-Net 9 "/IO_3_CMD" "IO_3_CMD"
- P3 2
- R2 1
- P6 2
- U1 7
-Net 10 "/IO_0_CMD" "IO_0_CMD"
- R11 1
- U1 4
- R10 2
- R1 2
- IC1 4
- R5 2
- R3 2
-Net 11 "/IO_4_CMD" "IO_4_CMD"
- U1 9
- P3 3
- R3 1
- P6 3
-Net 12 "/I2C_INT" "I2C_INT"
- P4 4
- U1 13
- P7 4
-Net 13 "" ""
- R7 2
- U1 3
-Net 14 "" ""
- U1 1
- R9 2
-Net 15 "GND" "GND"
- U1 8
- P5 4
- P1 4
- IC1 3
- IC2 3
- R11 2
- R13 2
- P2 4
-Net 16 "/I2C_SDA" "I2C_SDA"
- P1 3
- P2 3
- P5 3
- U1 15
-Net 17 "/I2C_SCL" "I2C_SCL"
- P2 2
- P5 2
- U1 14
- P1 2
-Net 18 "VDD" "VDD"
- P5 1
- R9 1
- R8 1
- R7 1
- P2 1
- U1 16
- R10 1
- P1 1
- R12 1
-Net 20 "/IO_0_N" "IO_0_N"
- R14 1
- D1 1
- IC1 2
- P8 2
-Net 21 "/IO_0_P" "IO_0_P"
- R18 2
- P8 1
- D1 2
-Net 22 "" ""
- R18 1
- R16 2
-Net 24 "" ""
- U1 2
- R8 2
-Net 25 "/IO_1_N" "IO_1_N"
- IC2 2
- P8 4
- D2 1
- R15 1
-Net 26 "" ""
- R15 2
- R17 1
- IC2 1
-}
-#End
+(export (version D)
+  (design
+    (source "C:/progetti_20/OpenS/Moduli/hw-cmdboard/hw-input/20-000-Schema Elettrico/10000001.sch")
+    (date "20/04/2015 23:45:02")
+    (tool "Eeschema (2015-01-16 BZR 5376)-product"))
+  (components
+    (comp (ref R7)
+      (value 10000)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA201))
+    (comp (ref R8)
+      (value 10000)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA1FE))
+    (comp (ref R9)
+      (value 10000)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA1E9))
+    (comp (ref U1)
+      (value PCF8574)
+      (libsource (lib philips) (part PCF8574))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA1C7))
+    (comp (ref P6)
+      (value CONN_4)
+      (libsource (lib 10000001-cache) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA0D6))
+    (comp (ref P7)
+      (value CONN_4)
+      (libsource (lib 10000001-cache) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA0D5))
+    (comp (ref P5)
+      (value CONN_4)
+      (libsource (lib 10000001-cache) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA0D4))
+    (comp (ref R6)
+      (value 0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA02B))
+    (comp (ref R5)
+      (value 0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA026))
+    (comp (ref R4)
+      (value 0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA01C))
+    (comp (ref R3)
+      (value 0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547BA018))
+    (comp (ref R2)
+      (value 0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9FFD))
+    (comp (ref R1)
+      (value 0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9FF3))
+    (comp (ref R17)
+      (value 2400)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9E50))
+    (comp (ref R19)
+      (value 2400)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9E4F))
+    (comp (ref R15)
+      (value 100)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9E4E))
+    (comp (ref R14)
+      (value 100)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9DEF))
+    (comp (ref R18)
+      (value 2400)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9DDC))
+    (comp (ref R16)
+      (value 2400)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9DBB))
+    (comp (ref R12)
+      (value 1000)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9BC6))
+    (comp (ref R13)
+      (value 10000)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9BC3))
+    (comp (ref R11)
+      (value 10000)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B9AAC))
+    (comp (ref P2)
+      (value CONN_4)
+      (libsource (lib 10000001-cache) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B99B2))
+    (comp (ref P4)
+      (value CONN_4)
+      (libsource (lib 10000001-cache) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B991B))
+    (comp (ref P3)
+      (value CONN_4)
+      (libsource (lib 10000001-cache) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 547B98F2))
+    (comp (ref P1)
+      (value CONN_4)
+      (libsource (lib 10000001-cache) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54560055))
+    (comp (ref P8)
+      (value CONN_4)
+      (libsource (lib 10000001-cache) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 545600A7))
+    (comp (ref R10)
+      (value 1000)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5456065C))
+    (comp (ref IC1)
+      (value TLP291)
+      (footprint SOP4)
+      (libsource (lib opto) (part TLP291))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54E9B476))
+    (comp (ref IC2)
+      (value TLP291)
+      (footprint SOP4)
+      (libsource (lib opto) (part TLP291))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54E9B4A1))
+    (comp (ref C2)
+      (value 1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 55357ECE))
+    (comp (ref C1)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 55357FCD)))
+  (libparts
+    (libpart (lib opto) (part TLP291)
+      (description "TLP291, SOP4, DC Optocoupler, Vce 80V, CTR 50-100%")
+      (docs http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet_120426.pdf)
+      (fields
+        (field (name Reference) IC)
+        (field (name Value) TLP291)
+        (field (name Footprint) SOP4))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib philips) (part PCF8574)
+      (description "8 BitsPort to I2C bus")
+      (docs philips/pcf8574.pdf)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) PCF8574))
+      (pins
+        (pin (num 1) (name A0) (type input))
+        (pin (num 2) (name A1) (type input))
+        (pin (num 3) (name A2) (type input))
+        (pin (num 4) (name P0) (type BiDi))
+        (pin (num 5) (name P1) (type BiDi))
+        (pin (num 6) (name P2) (type BiDi))
+        (pin (num 7) (name P3) (type BiDi))
+        (pin (num 8) (name VSS) (type power_in))
+        (pin (num 9) (name P4) (type BiDi))
+        (pin (num 10) (name P5) (type BiDi))
+        (pin (num 11) (name P6) (type BiDi))
+        (pin (num 12) (name P7) (type BiDi))
+        (pin (num 13) (name INT) (type openCol))
+        (pin (num 14) (name SCL) (type input))
+        (pin (num 15) (name SDA) (type BiDi))
+        (pin (num 16) (name VDD) (type power_in))))
+    (libpart (lib 10000001-cache) (part CONN_4)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive)))))
+  (libraries
+    (library (logical opto)
+      (uri C:\KiCad\share\library\opto.lib))
+    (library (logical device)
+      (uri C:\KiCad\share\library\device.lib))
+    (library (logical philips)
+      (uri C:\KiCad\share\library\philips.lib))
+    (library (logical 10000001-cache)
+      (uri "C:\\progetti_20\\OpenS\\Moduli\\hw-cmdboard\\hw-input\\20-000-Schema Elettrico\\10000001-cache.lib")))
+  (nets
+    (net (code 1) (name "Net-(R17-Pad2)")
+      (node (ref R19) (pin 1))
+      (node (ref R17) (pin 2)))
+    (net (code 2) (name /IO_1_P)
+      (node (ref P8) (pin 3))
+      (node (ref R19) (pin 2)))
+    (net (code 3) (name /IO_1_CMD)
+      (node (ref U1) (pin 5))
+      (node (ref R2) (pin 2))
+      (node (ref R13) (pin 1))
+      (node (ref R4) (pin 2))
+      (node (ref IC2) (pin 4))
+      (node (ref R12) (pin 2))
+      (node (ref R6) (pin 2)))
+    (net (code 4) (name /IO_0_CMD)
+      (node (ref R11) (pin 1))
+      (node (ref U1) (pin 4))
+      (node (ref R1) (pin 2))
+      (node (ref R3) (pin 2))
+      (node (ref R10) (pin 2))
+      (node (ref IC1) (pin 4))
+      (node (ref R5) (pin 2)))
+    (net (code 5) (name VDD)
+      (node (ref P5) (pin 1))
+      (node (ref R12) (pin 1))
+      (node (ref R10) (pin 1))
+      (node (ref R7) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref C1) (pin 1))
+      (node (ref R8) (pin 1))
+      (node (ref R9) (pin 1))
+      (node (ref U1) (pin 16))
+      (node (ref P1) (pin 1))
+      (node (ref P2) (pin 1)))
+    (net (code 6) (name /IO_0_P)
+      (node (ref P8) (pin 1))
+      (node (ref R18) (pin 2)))
+    (net (code 7) (name "Net-(R16-Pad2)")
+      (node (ref R18) (pin 1))
+      (node (ref R16) (pin 2)))
+    (net (code 8) (name "Net-(IC1-Pad1)")
+      (node (ref R14) (pin 2))
+      (node (ref R16) (pin 1))
+      (node (ref IC1) (pin 1)))
+    (net (code 9) (name /IO_0_N)
+      (node (ref R14) (pin 1))
+      (node (ref P8) (pin 2))
+      (node (ref IC1) (pin 2)))
+    (net (code 10) (name /IO_1_N)
+      (node (ref P8) (pin 4))
+      (node (ref R15) (pin 1))
+      (node (ref IC2) (pin 2)))
+    (net (code 11) (name /IO_4_CMD)
+      (node (ref R3) (pin 1))
+      (node (ref P3) (pin 3))
+      (node (ref U1) (pin 9))
+      (node (ref P6) (pin 3)))
+    (net (code 12) (name "Net-(P7-Pad3)")
+      (node (ref P7) (pin 3)))
+    (net (code 13) (name /IO_5_CMD)
+      (node (ref P6) (pin 4))
+      (node (ref P3) (pin 4))
+      (node (ref R4) (pin 1))
+      (node (ref U1) (pin 10)))
+    (net (code 14) (name /IO_6_CMD)
+      (node (ref P7) (pin 1))
+      (node (ref P4) (pin 1))
+      (node (ref U1) (pin 11))
+      (node (ref R5) (pin 1)))
+    (net (code 15) (name /IO_3_CMD)
+      (node (ref P6) (pin 2))
+      (node (ref U1) (pin 7))
+      (node (ref P3) (pin 2))
+      (node (ref R2) (pin 1)))
+    (net (code 16) (name /IO_2_CMD)
+      (node (ref R1) (pin 1))
+      (node (ref U1) (pin 6))
+      (node (ref P6) (pin 1))
+      (node (ref P3) (pin 1)))
+    (net (code 17) (name /I2C_INT)
+      (node (ref P4) (pin 4))
+      (node (ref U1) (pin 13))
+      (node (ref P7) (pin 4)))
+    (net (code 18) (name /IO_7_CMD)
+      (node (ref P7) (pin 2))
+      (node (ref P4) (pin 2))
+      (node (ref R6) (pin 1))
+      (node (ref U1) (pin 12)))
+    (net (code 19) (name /I2C_SDA)
+      (node (ref P5) (pin 3))
+      (node (ref U1) (pin 15))
+      (node (ref P1) (pin 3))
+      (node (ref P2) (pin 3)))
+    (net (code 20) (name /I2C_SCL)
+      (node (ref U1) (pin 14))
+      (node (ref P2) (pin 2))
+      (node (ref P5) (pin 2))
+      (node (ref P1) (pin 2)))
+    (net (code 21) (name GND)
+      (node (ref IC1) (pin 3))
+      (node (ref P2) (pin 4))
+      (node (ref P1) (pin 4))
+      (node (ref R11) (pin 2))
+      (node (ref R13) (pin 2))
+      (node (ref P5) (pin 4))
+      (node (ref IC2) (pin 3))
+      (node (ref U1) (pin 8))
+      (node (ref C2) (pin 2))
+      (node (ref C1) (pin 2)))
+    (net (code 22) (name "Net-(P4-Pad3)")
+      (node (ref P4) (pin 3)))
+    (net (code 23) (name "Net-(R9-Pad2)")
+      (node (ref R9) (pin 2))
+      (node (ref U1) (pin 1)))
+    (net (code 24) (name "Net-(R7-Pad2)")
+      (node (ref U1) (pin 3))
+      (node (ref R7) (pin 2)))
+    (net (code 25) (name "Net-(R8-Pad2)")
+      (node (ref U1) (pin 2))
+      (node (ref R8) (pin 2)))
+    (net (code 26) (name "Net-(IC2-Pad1)")
+      (node (ref R17) (pin 1))
+      (node (ref IC2) (pin 1))
+      (node (ref R15) (pin 2)))))
