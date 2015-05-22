@@ -1438,7 +1438,7 @@
   (via (at 92.075 48.26) (size 0.8001) (layers Fronte Retro) (net 17))
   (segment (start 90.551 49.723) (end 92.075 49.723) (width 0.508) (layer Fronte) (net 17) (status C00000))
   (segment (start 108.712 53.34) (end 108.712 55.118) (width 0.254) (layer Fronte) (net 17))
-  (segment (start 99.695 64.77) (end 99.695 66.802) (width 0.254) (layer Fronte) (net 17))
+  (segment (start 99.695 64.77) (end 99.695 66.802) (width 0.508) (layer Fronte) (net 17))
   (segment (start 108.712 55.118) (end 107.315 56.515) (width 0.254) (layer Fronte) (net 17))
   (via (at 99.695 66.802) (size 0.8001) (layers Fronte Retro) (net 17))
   (segment (start 108.712 64.262) (end 107.315 62.865) (width 0.254) (layer Fronte) (net 17))
