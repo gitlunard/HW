@@ -3,7 +3,7 @@
   (general
     (links 54)
     (no_connects 0)
-    (area 63.62319 26.2128 154.178002 83.160617)
+    (area 83.770469 42.876469 129.589531 74.979531)
     (thickness 1.6002)
     (drawings 29)
     (tracks 181)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.127)
     (user_trace_width 0.127)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
@@ -73,7 +73,7 @@
     (grid_origin 83.566 73.914)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010ff_80000007)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -91,12 +91,12 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory output/))
   )
 
   (net 0 "")
@@ -506,7 +506,7 @@
     )
   )
 
-  (module Fiducials:Fiducial_Modern_CopperTop (layer Fronte) (tedit 55318788) (tstamp 55318777)
+  (module Fiducials:Fiducial_Modern_CopperTop (layer Fronte) (tedit 558B2C2A) (tstamp 55318777)
     (at 86.868 49.53)
     (descr "Fiducial, Modern, Copper Top, Passermarke,")
     (tags "Fiducial, Modern, Copper Top, Passermarke,")
@@ -519,7 +519,7 @@
     (fp_circle (center 0 0) (end 1.52908 0) (layer Fronte) (width 0.381))
     (fp_circle (center 0 0) (end 1.7907 0) (layer Fronte) (width 0.381))
     (pad ~ smd circle (at 0 0) (size 2 2) (layers F.Mask)
-      (solder_mask_margin 2.99974))
+      (solder_mask_margin 0.5))
   )
 
   (module Mounting_Holes:MountingHole_3-5mm (layer Fronte) (tedit 553187B3) (tstamp 553187BE)
