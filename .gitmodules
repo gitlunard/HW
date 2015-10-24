@@ -1,0 +1,3 @@
+[submodule "kicad-lib/simisioto"]
+	path = kicad-lib/simisioto
+	url = git://smisioto.eu/kicad_libs.git
