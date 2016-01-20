@@ -1,4 +1,4 @@
-update=05/01/2016 18:47:18
+update=20/01/2016 00:56:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,6 @@ LibName31=C:/progetti_20/OpenS/kicad-library/library/TI_LDO
 LibName32=C:/progetti_20/OpenS/kicad-library/library/TI_interface
 LibName33=C:/progetti_20/OpenS/kicad-library/library/maxim_temperature
 LibName34=C:/progetti_20/OpenS/kicad-library/library/os_resistor_SMD
+LibName35=C:/progetti_20/OpenS/kicad-library/library/os_capacitor_SMD
+LibName36=C:/progetti_20/OpenS/kicad-library/library/os_conn_strip
+LibName37=C:/progetti_20/OpenS/kicad-library/library/os_terminal_block
