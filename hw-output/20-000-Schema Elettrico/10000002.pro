@@ -1,4 +1,4 @@
-update=27/01/2016 00:02:22
+update=01/02/2016 00:04:33
 version=1
 last_client=kicad
 [general]
@@ -78,3 +78,5 @@ LibName33=C:/progetti_20/OpenS/kicad-library/library/os_terminal_block
 LibName34=C:/progetti_20/OpenS/kicad-library/library/TI_I2C
 LibName35=C:/progetti_20/OpenS/kicad-library/library/TI_LDO
 LibName36=C:/progetti_20/OpenS/kicad-library/library/tvs
+LibName37=C:/progetti_20/OpenS/kicad-library/library/os_photomos
+LibName38=C:/progetti_20/OpenS/kicad-library/library/os_transistor
