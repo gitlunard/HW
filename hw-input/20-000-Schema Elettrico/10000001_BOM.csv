@@ -1,14 +1,60 @@
-"Id";"Riferimento";"Contenitore";"Quantità";"Valore";"Produttore";
-1;"U1";"SO16L";1;"PCF8574";;;
-2;"R13,R11,R9,R8,R7";"SM0603";5;"10000";;;
-3;"R12,R10";"SM0603";2;"1000";;;
-4;"R1,R2,R3,R4,R5,R6";"SM0603";6;"0";;;
-5;"P8,P7,P6,P5,P4,P3,P2,P1";"PIN_ARRAY_4x1";8;"CONN_4";;;
-6;"D2,D1";"DO214";2;"ZENERSMALL";;;
-7;"R17,R19,R18,R16";"SM2512";4;"2400";;;
-8;"R15,R14";"SM0603";2;"100";;;
-9;"IC1,IC2";"optocoupler-2-MINI-FLAT-4";2;"TLP291";;;
-10;"MH1,MH2";"MountingHole_3-5mm";2;"MountingHole_3-5mm";;;
-11;"FID1";"Fiducial_Modern_CopperTop";1;"Fiducial_Modern_CopperTop";;;
-12;"C1";"C_0603";1;"100n";;;
-13;"C2";"C_0603";1;"1u";;;
+Source:,C:/progetti_20/OpenS/HW/hw-input/20-000-Schema Elettrico/10000001.sch
+Date:,02/09/2016 09:24:14
+Tool:,Eeschema 4.0.3-stable
+Generator:,C:/programmi_20/KiCad/bin/scripting/plugins/bom_csv_grouped_by_value.py
+Component Count:,34
+
+Individual Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,CERAMIC,MF,MF_PN,NOPOP,VAL,VALUE,VOLTAGE,Value
+,,C1,C_100n_0603_10_X7R_25V,os_capacitor_SMD:C_100n_0603_10_X7R_25V,Capacitors_SMD:C_0603,,X7R,Murata,GRM188R71E104KA01D,0,,100n,25V,C_100n_0603_10_X7R_25V
+,,C2,C_1u_0603_10_X7R_25V,os_capacitor_SMD:C_1u_0603_10_X7R_25V,Capacitors_SMD:C_0603,,X7R,Murata,GRJ188R71E105KE11D,0,,1u,25V,C_1u_0603_10_X7R_25V
+,,D1,TVS_SMC_49.1V,tvs:TVS_SMC_49.1V,Diodes_SMD:SMC_Standard,,,BOURNS,SMLJ40CA,0,,,,49.1V
+,,D2,TVS_SMC_49.1V,tvs:TVS_SMC_49.1V,Diodes_SMD:SMC_Standard,,,BOURNS,SMLJ40CA,0,,,,49.1V
+,,P1,PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+,,P2,PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+,,P3,PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+,,P4,PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+,,P5,PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+,,P6,PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+,,P7,PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+,,P8,PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+,,R1,R_0_0603_5,os_resistor_SMD:R_0_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73Z1JTTD,0,0,,,R_0_0603_5
+,,R2,R_0_0603_5,os_resistor_SMD:R_0_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73Z1JTTD,0,0,,,R_0_0603_5
+,,R3,R_0_0603_5,os_resistor_SMD:R_0_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73Z1JTTD,0,0,,,R_0_0603_5
+,,R4,R_0_0603_5,os_resistor_SMD:R_0_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73Z1JTTD,0,0,,,R_0_0603_5
+,,R5,R_0_0603_5,os_resistor_SMD:R_0_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73Z1JTTD,0,0,,,R_0_0603_5
+,,R6,R_0_0603_5,os_resistor_SMD:R_0_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73Z1JTTD,0,0,,,R_0_0603_5
+,,R7,R_10K_0603_5,os_resistor_SMD:R_10K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD103J,0,10k,,,R_10K_0603_5
+,,R8,R_10K_0603_5,os_resistor_SMD:R_10K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD103J,0,10k,,,R_10K_0603_5
+,,R9,R_10K_0603_5,os_resistor_SMD:R_10K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD103J,0,10k,,,R_10K_0603_5
+,,R10,R_1K_0603_5,os_resistor_SMD:R_1K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD102J,0,1k,,,R_1K_0603_5
+,,R11,R_10K_0603_5,os_resistor_SMD:R_10K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD103J,0,10k,,,R_10K_0603_5
+,,R12,R_1K_0603_5,os_resistor_SMD:R_1K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD102J,0,1k,,,R_1K_0603_5
+,,R13,R_10K_0603_5,os_resistor_SMD:R_10K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD103J,0,10k,,,R_10K_0603_5
+,,R14,R_100_0603_5,os_resistor_SMD:R_100_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD101J,0,100,,,R_100_0603_5
+,,R15,R_100_0603_5,os_resistor_SMD:R_100_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD101J,0,100,,,R_100_0603_5
+,,R16,R_2K4_1206_5,os_resistor_SMD:R_2K4_1206_5,Resistors_SMD:R_1206,,,KOA Spear,RK73B2BTTD242J,0,2.4K,,,R_2K4_1206_5
+,,R17,R_2K4_1206_5,os_resistor_SMD:R_2K4_1206_5,Resistors_SMD:R_1206,,,KOA Spear,RK73B2BTTD242J,0,2.4K,,,R_2K4_1206_5
+,,R18,R_2K4_1206_5,os_resistor_SMD:R_2K4_1206_5,Resistors_SMD:R_1206,,,KOA Spear,RK73B2BTTD242J,0,2.4K,,,R_2K4_1206_5
+,,R19,R_2K4_1206_5,os_resistor_SMD:R_2K4_1206_5,Resistors_SMD:R_1206,,,KOA Spear,RK73B2BTTD242J,0,2.4K,,,R_2K4_1206_5
+,,U1,TCA9554,TI_I2C:TCA9554,Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm,,,TI,TCA9554DBQR,0,,,,TCA9554
+,,U2,TLP291(SE,os_optocoupler:TLP291(SE,os_optocoupler:TLP291,,,Toshiba,TLP291(SE,0,TLP291(SE,,,TLP291(SE
+,,U3,TLP291(SE,os_optocoupler:TLP291(SE,os_optocoupler:TLP291,,,Toshiba,TLP291(SE,0,TLP291(SE,,,TLP291(SE
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,CERAMIC,MF,MF_PN,NOPOP,VAL,VALUE,VOLTAGE,Value
+1,1,C1,C_100n_0603_10_X7R_25V,os_capacitor_SMD:C_100n_0603_10_X7R_25V,Capacitors_SMD:C_0603,,X7R,Murata,GRM188R71E104KA01D,0,,100n,25V,C_100n_0603_10_X7R_25V
+2,1,C2,C_1u_0603_10_X7R_25V,os_capacitor_SMD:C_1u_0603_10_X7R_25V,Capacitors_SMD:C_0603,,X7R,Murata,GRJ188R71E105KE11D,0,,1u,25V,C_1u_0603_10_X7R_25V
+3,2,"D1, D2",TVS_SMC_49.1V,tvs:TVS_SMC_49.1V,Diodes_SMD:SMC_Standard,,,BOURNS,SMLJ40CA,0,,,,49.1V
+4,8,"P1, P2, P3, P4, P5, P6, P7, P8",PLUG_01X04_254,os_conn_strip:PLUG_01X04_254,Socket_Strips:Socket_Strip_Straight_1x04,,,Harwin,M20-7820446,0,M20-7820446,,,PLUG_01X04_254
+5,6,"R1, R2, R3, R4, R5, R6",R_0_0603_5,os_resistor_SMD:R_0_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73Z1JTTD,0,0,,,R_0_0603_5
+6,5,"R7, R8, R9, R11, R13",R_10K_0603_5,os_resistor_SMD:R_10K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD103J,0,10k,,,R_10K_0603_5
+7,2,"R10, R12",R_1K_0603_5,os_resistor_SMD:R_1K_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD102J,0,1k,,,R_1K_0603_5
+8,2,"R14, R15",R_100_0603_5,os_resistor_SMD:R_100_0603_5,Resistors_SMD:R_0603,,,KOA Spear,RK73B1JTTD101J,0,100,,,R_100_0603_5
+9,4,"R16, R17, R18, R19",R_2K4_1206_5,os_resistor_SMD:R_2K4_1206_5,Resistors_SMD:R_1206,,,KOA Spear,RK73B2BTTD242J,0,2.4K,,,R_2K4_1206_5
+10,1,U1,TCA9554,TI_I2C:TCA9554,Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm,,,TI,TCA9554DBQR,0,,,,TCA9554
+11,2,"U2, U3",TLP291(SE,os_optocoupler:TLP291(SE,os_optocoupler:TLP291,,,Toshiba,TLP291(SE,0,TLP291(SE,,,TLP291(SE

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:/progetti/kicad/hw-cmdboard/hw-input/20-000-Schema Elettrico/10000001.sch</source>
-    <date>20/07/2015 13:11:26</date>
-    <tool>Eeschema (after 2015-may-25 BZR unknown)-product</tool>
+    <source>C:/progetti_20/OpenS/HW/hw-input/20-000-Schema Elettrico/10000001.sch</source>
+    <date>02/09/2016 09:24:14</date>
+    <tool>Eeschema 4.0.3-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Input Output</title>
@@ -19,230 +19,618 @@
     </sheet>
   </design>
   <components>
-    <comp ref="R7">
-      <value>10000</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
+    <comp ref="C1">
+      <value>C_100n_0603_10_X7R_25V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Murata</field>
+        <field name="MF_PN">GRM188R71E104KA01D</field>
+        <field name="VALUE">100n</field>
+        <field name="VOLTAGE">25V</field>
+        <field name="CERAMIC">X7R</field>
+      </fields>
+      <libsource lib="os_capacitor_SMD" part="C_100n_0603_10_X7R_25V"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA201</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>10000</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA1FE</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>10000</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA1E9</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>PCF8574</value>
-      <libsource lib="10000001-rescue" part="PCF8574-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA1C7</tstamp>
-    </comp>
-    <comp ref="P6">
-      <value>CONN_4</value>
-      <libsource lib="10000001-cache" part="CONN_4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA0D6</tstamp>
-    </comp>
-    <comp ref="P7">
-      <value>CONN_4</value>
-      <libsource lib="10000001-cache" part="CONN_4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA0D5</tstamp>
-    </comp>
-    <comp ref="P5">
-      <value>CONN_4</value>
-      <libsource lib="10000001-cache" part="CONN_4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA0D4</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA02B</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA026</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA01C</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547BA018</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9FFD</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9FF3</tstamp>
-    </comp>
-    <comp ref="R17">
-      <value>2400</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9E50</tstamp>
-    </comp>
-    <comp ref="R19">
-      <value>2400</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9E4F</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>100</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9E4E</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>100</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9DEF</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>2400</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9DDC</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>2400</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9DBB</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>1000</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9BC6</tstamp>
-    </comp>
-    <comp ref="R13">
-      <value>10000</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9BC3</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>10000</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B9AAC</tstamp>
-    </comp>
-    <comp ref="P2">
-      <value>CONN_4</value>
-      <libsource lib="10000001-cache" part="CONN_4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B99B2</tstamp>
-    </comp>
-    <comp ref="P4">
-      <value>CONN_4</value>
-      <libsource lib="10000001-cache" part="CONN_4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B991B</tstamp>
-    </comp>
-    <comp ref="P3">
-      <value>CONN_4</value>
-      <libsource lib="10000001-cache" part="CONN_4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>547B98F2</tstamp>
-    </comp>
-    <comp ref="P1">
-      <value>CONN_4</value>
-      <libsource lib="10000001-cache" part="CONN_4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54560055</tstamp>
-    </comp>
-    <comp ref="P8">
-      <value>CONN_4</value>
-      <libsource lib="10000001-cache" part="CONN_4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>545600A7</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>1000</value>
-      <libsource lib="10000001-rescue" part="R-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5456065C</tstamp>
-    </comp>
-    <comp ref="IC1">
-      <value>TLP291</value>
-      <libsource lib="10000001-rescue" part="TLP291-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54E9B476</tstamp>
-    </comp>
-    <comp ref="IC2">
-      <value>TLP291</value>
-      <libsource lib="10000001-rescue" part="TLP291-RESCUE-10000001"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54E9B4A1</tstamp>
+      <tstamp>56E88CDB</tstamp>
     </comp>
     <comp ref="C2">
-      <value>1u</value>
+      <value>C_1u_0603_10_X7R_25V</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="10000001-rescue" part="C-RESCUE-10000001"/>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Murata</field>
+        <field name="MF_PN">GRJ188R71E105KE11D</field>
+        <field name="VALUE">1u</field>
+        <field name="VOLTAGE">25V</field>
+        <field name="CERAMIC">X7R</field>
+      </fields>
+      <libsource lib="os_capacitor_SMD" part="C_1u_0603_10_X7R_25V"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55357ECE</tstamp>
+      <tstamp>56E88D97</tstamp>
     </comp>
-    <comp ref="C1">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="10000001-rescue" part="C-RESCUE-10000001"/>
+    <comp ref="P1">
+      <value>PLUG_01X04_254</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <libsource lib="os_conn_strip" part="PLUG_01X04_254"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55357FCD</tstamp>
+      <tstamp>56E8991D</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>PLUG_01X04_254</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <libsource lib="os_conn_strip" part="PLUG_01X04_254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E89F8C</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>PLUG_01X04_254</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <libsource lib="os_conn_strip" part="PLUG_01X04_254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8AAA0</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>PLUG_01X04_254</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <libsource lib="os_conn_strip" part="PLUG_01X04_254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8AB2D</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>PLUG_01X04_254</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <libsource lib="os_conn_strip" part="PLUG_01X04_254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8B1BC</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>PLUG_01X04_254</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <libsource lib="os_conn_strip" part="PLUG_01X04_254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8B41A</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>PLUG_01X04_254</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <libsource lib="os_conn_strip" part="PLUG_01X04_254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8B4A7</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>PLUG_01X04_254</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <libsource lib="os_conn_strip" part="PLUG_01X04_254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8BD81</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_0_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73Z1JTTD</field>
+        <field name="VAL">0</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_0_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8C920</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_0_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73Z1JTTD</field>
+        <field name="VAL">0</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_0_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8CBDA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_0_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73Z1JTTD</field>
+        <field name="VAL">0</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_0_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8CC4C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_0_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73Z1JTTD</field>
+        <field name="VAL">0</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_0_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8CCC1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_0_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73Z1JTTD</field>
+        <field name="VAL">0</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_0_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8CD39</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_0_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73Z1JTTD</field>
+        <field name="VAL">0</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_0_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8CDB4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TVS_SMC_49.1V</value>
+      <footprint>Diodes_SMD:SMC_Standard</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">BOURNS</field>
+        <field name="MF_PN">SMLJ40CA</field>
+        <field name="Value">49.1V</field>
+      </fields>
+      <libsource lib="tvs" part="TVS_SMC_49.1V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8F00D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>TVS_SMC_49.1V</value>
+      <footprint>Diodes_SMD:SMC_Standard</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">BOURNS</field>
+        <field name="MF_PN">SMLJ40CA</field>
+        <field name="Value">49.1V</field>
+      </fields>
+      <libsource lib="tvs" part="TVS_SMC_49.1V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8F0C7</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_10K_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD103J</field>
+        <field name="VAL">10k</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_10K_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8FECD</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_10K_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD103J</field>
+        <field name="VAL">10k</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_10K_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8FF73</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_10K_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD103J</field>
+        <field name="VAL">10k</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_10K_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8FFF9</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_10K_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD103J</field>
+        <field name="VAL">10k</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_10K_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E90D8E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_10K_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD103J</field>
+        <field name="VAL">10k</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_10K_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E91598</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_1K_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD102J</field>
+        <field name="VAL">1k</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_1K_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E91C7E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_1K_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD102J</field>
+        <field name="VAL">1k</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_1K_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9234A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TCA9554</value>
+      <footprint>Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">TI</field>
+        <field name="MF_PN">TCA9554DBQR</field>
+        <field name="Value">TCA9554</field>
+      </fields>
+      <libsource lib="TI_I2C" part="TCA9554"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFCEE7</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TLP291(SE</value>
+      <footprint>os_optocoupler:TLP291</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Toshiba</field>
+        <field name="MF_PN">TLP291(SE</field>
+        <field name="VAL">TLP291(SE</field>
+      </fields>
+      <libsource lib="os_optocoupler" part="TLP291(SE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C06100</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLP291(SE</value>
+      <footprint>os_optocoupler:TLP291</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">Toshiba</field>
+        <field name="MF_PN">TLP291(SE</field>
+        <field name="VAL">TLP291(SE</field>
+      </fields>
+      <libsource lib="os_optocoupler" part="TLP291(SE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C06743</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_2K4_1206_5</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B2BTTD242J</field>
+        <field name="VAL">2.4K</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_2K4_1206_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C97AC5</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R_2K4_1206_5</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B2BTTD242J</field>
+        <field name="VAL">2.4K</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_2K4_1206_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C97C3C</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_100_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD101J</field>
+        <field name="VAL">100</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_100_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C9816C</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_2K4_1206_5</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B2BTTD242J</field>
+        <field name="VAL">2.4K</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_2K4_1206_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C987F4</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R_2K4_1206_5</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B2BTTD242J</field>
+        <field name="VAL">2.4K</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_2K4_1206_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C9888F</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_100_0603_5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD101J</field>
+        <field name="VAL">100</field>
+      </fields>
+      <libsource lib="os_resistor_SMD" part="R_100_0603_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C98937</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="10000001-rescue" part="C-RESCUE-10000001">
+    <libpart lib="os_capacitor_SMD" part="C_100n_0603_10_X7R_25V">
+      <description>Unpolarized capacitor</description>
       <footprints>
-        <fp>SM*</fp>
         <fp>C?</fp>
-        <fp>C1-1</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C-RESCUE-10000001</field>
+        <field name="Value">C_100n_0603_10_X7R_25V</field>
+        <field name="Footprint">Capacitors_SMD:C_0603</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">Murata</field>
+        <field name="MF_PN">GRM188R71E104KA01D</field>
+        <field name="VALUE">100n</field>
+        <field name="VOLTAGE">25V</field>
+        <field name="CERAMIC">X7R</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="10000001-rescue" part="PCF8574-RESCUE-10000001">
+    <libpart lib="os_capacitor_SMD" part="C_1u_0603_10_X7R_25V">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1u_0603_10_X7R_25V</field>
+        <field name="Footprint">Capacitors_SMD:C_0603</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">Murata</field>
+        <field name="MF_PN">GRJ188R71E105KE11D</field>
+        <field name="VALUE">1u</field>
+        <field name="VOLTAGE">25V</field>
+        <field name="CERAMIC">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="os_conn_strip" part="PLUG_01X04_254">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PLUG_01X04_254</field>
+        <field name="Footprint">Socket_Strips:Socket_Strip_Straight_1x04</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">Harwin</field>
+        <field name="MF_PN">M20-7820446</field>
+        <field name="VAL">M20-7820446</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="os_resistor_SMD" part="R_0_0603_5">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0_0603_5</field>
+        <field name="Footprint">Resistors_SMD:R_0603</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73Z1JTTD</field>
+        <field name="VAL">0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="os_resistor_SMD" part="R_100_0603_5">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100_0603_5</field>
+        <field name="Footprint">Resistors_SMD:R_0603</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD101J</field>
+        <field name="VAL">100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="os_resistor_SMD" part="R_10K_0603_5">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10K_0603_5</field>
+        <field name="Footprint">Resistors_SMD:R_0603</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD103J</field>
+        <field name="VAL">10k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="os_resistor_SMD" part="R_1K_0603_5">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1K_0603_5</field>
+        <field name="Footprint">Resistors_SMD:R_0603</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B1JTTD102J</field>
+        <field name="VAL">1k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="os_resistor_SMD" part="R_2K4_1206_5">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2K4_1206_5</field>
+        <field name="Footprint">Resistors_SMD:R_1206</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">KOA Spear</field>
+        <field name="MF_PN">RK73B2BTTD242J</field>
+        <field name="VAL">2.4K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TI_I2C" part="TCA9554">
+      <description>8 Bit Port/Expander to I2C Bus, DIP/SOIC-16</description>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">PCF8574-RESCUE-10000001</field>
+        <field name="Value">TCA9554</field>
+        <field name="Footprint">Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">TI</field>
+        <field name="MF_PN">TCA9554DBQR</field>
+        <field name="Value">TCA9554</field>
       </fields>
       <pins>
         <pin num="1" name="A0" type="input"/>
@@ -257,34 +645,22 @@
         <pin num="10" name="P5" type="BiDi"/>
         <pin num="11" name="P6" type="BiDi"/>
         <pin num="12" name="P7" type="BiDi"/>
-        <pin num="13" name="INT" type="openCol"/>
-        <pin num="14" name="SCL" type="input"/>
-        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="13" name="~INT~" type="openCol"/>
+        <pin num="14" name="SCL" type="openCol"/>
+        <pin num="15" name="SDA" type="openCol"/>
         <pin num="16" name="VDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="10000001-rescue" part="R-RESCUE-10000001">
-      <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
-      </footprints>
+    <libpart lib="os_optocoupler" part="TLP291(SE">
+      <description>SOP4, DC Optocoupler, Vce 80V, CTR 50-100%</description>
       <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R-RESCUE-10000001</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="10000001-rescue" part="TLP291-RESCUE-10000001">
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">TLP291-RESCUE-10000001</field>
-        <field name="Footprint">SOP4</field>
+        <field name="Reference">U</field>
+        <field name="Value">TLP291(SE</field>
+        <field name="Footprint">os_optocoupler:TLP291</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">Toshiba</field>
+        <field name="MF_PN">TLP291(SE</field>
+        <field name="VAL">TLP291(SE</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -293,177 +669,197 @@
         <pin num="4" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="10000001-cache" part="CONN_4">
+    <libpart lib="tvs" part="TVS_SMC_49.1V">
+      <description>Transient voltage suppressor diode (bi-directional)</description>
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_4</field>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_SMC_49.1V</field>
+        <field name="Footprint">Diodes_SMD:SMC_Standard</field>
+        <field name="NOPOP">0</field>
+        <field name="MF">BOURNS</field>
+        <field name="MF_PN">SMLJ40CA</field>
+        <field name="Value">49.1V</field>
       </fields>
       <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="10000001-rescue">
-      <uri>C:\progetti\kicad\hw-cmdboard\hw-input\20-000-Schema Elettrico\10000001-rescue.lib</uri>
+    <library logical="os_capacitor_SMD">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\os_capacitor_SMD.lib</uri>
     </library>
-    <library logical="10000001-cache">
-      <uri>C:\progetti\kicad\hw-cmdboard\hw-input\20-000-Schema Elettrico\10000001-cache.lib</uri>
+    <library logical="os_conn_strip">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\os_conn_strip.lib</uri>
+    </library>
+    <library logical="os_resistor_SMD">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\os_resistor_SMD.lib</uri>
+    </library>
+    <library logical="TI_I2C">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\TI_I2C.lib</uri>
+    </library>
+    <library logical="tvs">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\tvs.lib</uri>
+    </library>
+    <library logical="os_optocoupler">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\os_optocoupler.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(R17-Pad2)">
-      <node ref="R19" pin="1"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="2" name="/IO_1_P">
-      <node ref="P8" pin="3"/>
-      <node ref="R19" pin="2"/>
-    </net>
-    <net code="3" name="/IO_1_CMD">
-      <node ref="R2" pin="2"/>
-      <node ref="IC2" pin="4"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="U1" pin="5"/>
-      <node ref="R6" pin="2"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="4" name="/IO_0_CMD">
-      <node ref="R1" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="R10" pin="2"/>
-      <node ref="IC1" pin="4"/>
-      <node ref="R3" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="5" name="VDD">
-      <node ref="R10" pin="1"/>
-      <node ref="P1" pin="1"/>
-      <node ref="P2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="16"/>
-      <node ref="R12" pin="1"/>
-      <node ref="P5" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="6" name="/IO_0_P">
-      <node ref="P8" pin="1"/>
-      <node ref="R18" pin="2"/>
-    </net>
-    <net code="7" name="Net-(R16-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="R18" pin="1"/>
-    </net>
-    <net code="8" name="Net-(IC1-Pad1)">
-      <node ref="IC1" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="9" name="/IO_0_N">
-      <node ref="R14" pin="1"/>
-      <node ref="P8" pin="2"/>
-      <node ref="IC1" pin="2"/>
-    </net>
-    <net code="10" name="/IO_1_N">
-      <node ref="P8" pin="4"/>
-      <node ref="IC2" pin="2"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="11" name="/IO_4_CMD">
-      <node ref="R3" pin="1"/>
-      <node ref="P3" pin="3"/>
-      <node ref="U1" pin="9"/>
-      <node ref="P6" pin="3"/>
-    </net>
-    <net code="12" name="Net-(P7-Pad3)">
-      <node ref="P7" pin="3"/>
-    </net>
-    <net code="13" name="/IO_5_CMD">
-      <node ref="P6" pin="4"/>
-      <node ref="R4" pin="1"/>
-      <node ref="U1" pin="10"/>
-      <node ref="P3" pin="4"/>
-    </net>
-    <net code="14" name="/IO_6_CMD">
-      <node ref="R5" pin="1"/>
-      <node ref="P4" pin="1"/>
-      <node ref="U1" pin="11"/>
-      <node ref="P7" pin="1"/>
-    </net>
-    <net code="15" name="/IO_3_CMD">
-      <node ref="U1" pin="7"/>
-      <node ref="R2" pin="1"/>
-      <node ref="P3" pin="2"/>
-      <node ref="P6" pin="2"/>
-    </net>
-    <net code="16" name="/IO_2_CMD">
-      <node ref="U1" pin="6"/>
-      <node ref="P3" pin="1"/>
-      <node ref="P6" pin="1"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="17" name="/I2C_INT">
-      <node ref="U1" pin="13"/>
-      <node ref="P4" pin="4"/>
-      <node ref="P7" pin="4"/>
-    </net>
-    <net code="18" name="/IO_7_CMD">
-      <node ref="U1" pin="12"/>
-      <node ref="P7" pin="2"/>
-      <node ref="R6" pin="1"/>
-      <node ref="P4" pin="2"/>
-    </net>
-    <net code="19" name="/I2C_SDA">
+    <net code="1" name="Net-(P5-Pad3)">
       <node ref="P5" pin="3"/>
-      <node ref="P2" pin="3"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="U1" pin="16"/>
+      <node ref="P3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(P8-Pad3)">
+      <node ref="P8" pin="3"/>
+    </net>
+    <net code="4" name="/I2C_SCL">
+      <node ref="U1" pin="14"/>
+      <node ref="P6" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P1" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R13" pin="2"/>
+      <node ref="P6" pin="4"/>
+    </net>
+    <net code="6" name="/I2C_SDA">
+      <node ref="P6" pin="3"/>
+      <node ref="P3" pin="3"/>
       <node ref="P1" pin="3"/>
       <node ref="U1" pin="15"/>
     </net>
-    <net code="20" name="/I2C_SCL">
-      <node ref="P5" pin="2"/>
-      <node ref="U1" pin="14"/>
-      <node ref="P1" pin="2"/>
-      <node ref="P2" pin="2"/>
+    <net code="7" name="/IO_2_CMD">
+      <node ref="P4" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="P7" pin="1"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="21" name="GND">
-      <node ref="IC1" pin="3"/>
-      <node ref="P5" pin="4"/>
-      <node ref="R13" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="P1" pin="4"/>
-      <node ref="U1" pin="8"/>
-      <node ref="P2" pin="4"/>
-      <node ref="IC2" pin="3"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C1" pin="2"/>
+    <net code="8" name="/IO_3_CMD">
+      <node ref="U1" pin="7"/>
+      <node ref="R2" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P7" pin="2"/>
     </net>
-    <net code="22" name="Net-(P4-Pad3)">
+    <net code="9" name="/IO_4_CMD">
+      <node ref="R3" pin="2"/>
       <node ref="P4" pin="3"/>
+      <node ref="P7" pin="3"/>
+      <node ref="U1" pin="9"/>
     </net>
-    <net code="23" name="Net-(R9-Pad2)">
-      <node ref="R9" pin="2"/>
-      <node ref="U1" pin="1"/>
+    <net code="10" name="/IO_5_CMD">
+      <node ref="P4" pin="4"/>
+      <node ref="U1" pin="10"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P7" pin="4"/>
     </net>
-    <net code="24" name="Net-(R7-Pad2)">
-      <node ref="R7" pin="2"/>
-      <node ref="U1" pin="3"/>
+    <net code="11" name="/IO_6_CMD">
+      <node ref="P8" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="25" name="Net-(R8-Pad2)">
+    <net code="12" name="/IO_7_CMD">
+      <node ref="P5" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="P8" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="13" name="/IO_1_N">
+      <node ref="U3" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="14" name="/IO_1_P">
+      <node ref="P2" pin="3"/>
+      <node ref="R19" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="15" name="/I2C_INT">
+      <node ref="P5" pin="4"/>
+      <node ref="P8" pin="4"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="16" name="/IO_0_P">
+      <node ref="D1" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R15-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R17-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="19" name="/IO_0_N">
+      <node ref="P2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R14-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(R16-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="22" name="Net-(R8-Pad2)">
       <node ref="U1" pin="2"/>
       <node ref="R8" pin="2"/>
     </net>
-    <net code="26" name="Net-(IC2-Pad1)">
-      <node ref="R15" pin="2"/>
-      <node ref="IC2" pin="1"/>
-      <node ref="R17" pin="1"/>
+    <net code="23" name="Net-(R7-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="24" name="Net-(R9-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="25" name="/IO_0_CMD">
+      <node ref="R1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="26" name="/IO_1_CMD">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="4"/>
     </net>
   </nets>
 </export>

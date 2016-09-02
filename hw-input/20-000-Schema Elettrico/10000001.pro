@@ -1,4 +1,4 @@
-update=04/01/2016 14:43:53
+update=25/08/2016 23:57:22
 version=1
 last_client=kicad
 [general]
@@ -89,3 +89,14 @@ LibName27=siliconi
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=C:/progetti_20/OpenS/kicad-library/library/os_capacitor_SMD
+LibName32=C:/progetti_20/OpenS/kicad-library/library/os_conn_strip
+LibName33=C:/progetti_20/OpenS/kicad-library/library/os_photomos
+LibName34=C:/progetti_20/OpenS/kicad-library/library/os_resistor_SMD
+LibName35=C:/progetti_20/OpenS/kicad-library/library/os_terminal_block
+LibName36=C:/progetti_20/OpenS/kicad-library/library/os_transistor
+LibName37=C:/progetti_20/OpenS/kicad-library/library/TI_I2C
+LibName38=C:/progetti_20/OpenS/kicad-library/library/TI_interface
+LibName39=C:/progetti_20/OpenS/kicad-library/library/TI_LDO
+LibName40=C:/progetti_20/OpenS/kicad-library/library/tvs
+LibName41=C:/progetti_20/OpenS/kicad-library/library/os_optocoupler
