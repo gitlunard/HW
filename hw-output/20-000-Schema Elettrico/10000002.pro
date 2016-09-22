@@ -1,8 +1,6 @@
-update=01/02/2016 00:04:33
+update=21/09/2016 00:00:04
 version=1
 last_client=kicad
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -80,3 +78,5 @@ LibName35=C:/progetti_20/OpenS/kicad-library/library/TI_LDO
 LibName36=C:/progetti_20/OpenS/kicad-library/library/tvs
 LibName37=C:/progetti_20/OpenS/kicad-library/library/os_photomos
 LibName38=C:/progetti_20/OpenS/kicad-library/library/os_transistor
+[general]
+version=1
