@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/progetti_20/OpenS/HW/hw-input/20-000-Schema Elettrico/10000001.sch</source>
-    <date>02/09/2016 09:24:14</date>
+    <date>21/09/2016 00:01:02</date>
     <tool>Eeschema 4.0.3-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -687,14 +687,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="os_capacitor_SMD">
-      <uri>C:\progetti_20\OpenS\kicad-library\library\os_capacitor_SMD.lib</uri>
-    </library>
     <library logical="os_conn_strip">
       <uri>C:\progetti_20\OpenS\kicad-library\library\os_conn_strip.lib</uri>
     </library>
     <library logical="os_resistor_SMD">
       <uri>C:\progetti_20\OpenS\kicad-library\library\os_resistor_SMD.lib</uri>
+    </library>
+    <library logical="os_capacitor_SMD">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\os_capacitor_SMD.lib</uri>
     </library>
     <library logical="TI_I2C">
       <uri>C:\progetti_20\OpenS\kicad-library\library\TI_I2C.lib</uri>
