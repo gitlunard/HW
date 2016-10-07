@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/progetti_20/OpenS/HW/hw-temp/20-000-Schema Elettrico/10000006_SE.sch</source>
-    <date>25/08/2016 23:44:48</date>
+    <date>26/09/2016 19:55:23</date>
     <tool>Eeschema 4.0.3-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -821,26 +821,26 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="TI_interface">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\TI_interface.lib</uri>
+    </library>
+    <library logical="TI_LDO">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\TI_LDO.lib</uri>
+    </library>
     <library logical="nxp_interface">
       <uri>C:\progetti_20\OpenS\kicad-library\library\nxp_interface.lib</uri>
     </library>
     <library logical="maxim_temperature">
       <uri>C:\progetti_20\OpenS\kicad-library\library\maxim_temperature.lib</uri>
     </library>
-    <library logical="os_resistor_SMD">
-      <uri>C:\progetti_20\OpenS\kicad-library\library\os_resistor_SMD.lib</uri>
+    <library logical="os_conn_strip">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\os_conn_strip.lib</uri>
     </library>
     <library logical="os_capacitor_SMD">
       <uri>C:\progetti_20\OpenS\kicad-library\library\os_capacitor_SMD.lib</uri>
     </library>
-    <library logical="TI_LDO">
-      <uri>C:\progetti_20\OpenS\kicad-library\library\TI_LDO.lib</uri>
-    </library>
-    <library logical="TI_interface">
-      <uri>C:\progetti_20\OpenS\kicad-library\library\TI_interface.lib</uri>
-    </library>
-    <library logical="os_conn_strip">
-      <uri>C:\progetti_20\OpenS\kicad-library\library\os_conn_strip.lib</uri>
+    <library logical="os_resistor_SMD">
+      <uri>C:\progetti_20\OpenS\kicad-library\library\os_resistor_SMD.lib</uri>
     </library>
   </libraries>
   <nets>
